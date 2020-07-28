@@ -1,6 +1,6 @@
 <!--components/banner/index.wxml-->
 <view class="banner-view" style="height: {{bannerHeight}}px">
-	<swiper class="banner" style="height: {{bannerHeight}}px" bindchange="swiperChange">
+	<swiper autoplay="true" circular="true" class="banner" style="height: {{bannerHeight}}px" bindchange="swiperChange">
 		<block wx:if="{{bannerData.length > 0}}">
 			<swiper-item class="banner-item" wx:for="{{bannerData}}" wx:key="unique">
 				<image style="height: {{bannerHeight}}px" class="{{ home ? 'banner-item-image' : 'banner-item-image-radius'}}" src="{{item.image}}" mode="aspectFill">
@@ -14,9 +14,9 @@
 			</swiper-item>
 		</block>
 	</swiper>
-	<view class="banner-dots">
+	<view class="banner-dots" style="bottom: {{dotBottom}}px">
 		<block wx:for="{{bannerData}}" wx:key="unique">
-			<view class="banner-dot {{currentIndex === index ? 'banner-dot-active' : ''}}">
+			<view class="banner-dot {{currentIndex === index ? 'banner-dot-active' : ''}}" >
 			</view>
 		</block>
 	</view>

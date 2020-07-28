@@ -12,6 +12,10 @@ Component({
       type: Boolean,
       value: true
     },
+    dotBottom: {
+      type: Number,
+      value: 20
+    },
     bannerData: {
       type: Array,
       value: [

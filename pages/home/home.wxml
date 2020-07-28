@@ -1,4 +1,7 @@
 <!--pages/home/home.wxml-->
 <view>
- <home_banner />
+ <banner dot-bottom="40"/>
+ <view class="content-view">
+  <home_guide />
+ </view>
 </view>

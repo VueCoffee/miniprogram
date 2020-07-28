@@ -1,0 +1,24 @@
+/* components/home/home_guide/home_guide_item/index.wxss */
+.home-guide-item-view {
+  display: flex;
+  align-items: center;
+}
+.home-guide-item-view-image {
+  width: 30px;
+  height: 30px;
+}
+.home-guide-item-view-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.home-guide-item-view-title {
+  color: var(--text-color);
+  font-size: var(--zh-sixteen-size);
+  font-weight: bold;
+}
+
+.home-guide-item-view-description {
+  color: var(--normal-color);
+  font-size: var(--zh-twelve-size);
+}

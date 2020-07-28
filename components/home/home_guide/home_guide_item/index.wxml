@@ -1,0 +1,8 @@
+<!--components/home/home_guide/home_guide_item/index.wxml-->
+<view class="home-guide-item-view">
+  <image class="home-guide-item-view-image" src="{{icon}}"></image>
+  <view  class="home-guide-item-view-content">
+   <text class="home-guide-item-view-title">{{title}}</text>
+   <text class="home-guide-item-view-description">{{description}}</text>
+  </view>
+</view>

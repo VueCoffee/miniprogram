@@ -34,6 +34,7 @@ page {
   --text-gary-color: #3E454C;
   --checkbox-color: #DBDBDB;
   --skeleton-color: #dbdbdb4b;
+  --line-color: #F3F4F5;
 
   /* 中文文字大小 */
   --zh-twelve-size: 12px;
@@ -50,4 +51,7 @@ page {
   /* dot */
   --dot-color: rgba(255,255,255, .4);
   --dot-active-color: white;
+
+  /* 其他颜色 */
+  --background-white-color: white;
 }

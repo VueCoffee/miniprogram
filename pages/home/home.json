@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "home_banner": "/components/banner/index"
+    "banner": "/components/banner/index",
+    "home_guide": "/components/home/home_guide/index"
   }
 }

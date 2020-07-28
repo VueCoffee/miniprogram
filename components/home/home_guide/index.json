@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "home_guide_item": "/components/home/home_guide/home_guide_item/index"
+  }
+}

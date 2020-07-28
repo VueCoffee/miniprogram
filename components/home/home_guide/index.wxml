@@ -1,0 +1,6 @@
+<!--components/home/home_guide/index.wxml-->
+<view class="home-guide-view">
+	<home_guide_item icon="/image/icon/icon_store.png" title="自提" description="在线点，到店取" />
+  <view class="ver-line" />
+	<home_guide_item icon="/image/icon/icon_car.png" title="外送" description="30分钟必答" />
+</view>
