@@ -1,0 +1,6 @@
+/* components/home/home_function/index.wxss */
+.home-function-view{
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}

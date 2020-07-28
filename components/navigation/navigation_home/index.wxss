@@ -1,0 +1,32 @@
+/* components/navigation/navigation_home/index.wxss */
+.navigation-home-view {
+  display: flex;
+  align-items: flex-end;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: var(--background-white-color);
+  border-bottom: 1px solid var(--line-color);
+}
+.navigation-home-view-content {
+  display: flex;
+  flex-direction: column;
+}
+.navigation-home-view-name {
+  font-size: var(--zh-twenty-size);
+  color: var(--text-color);
+  font-weight: bold;
+}
+.navigation-home-view-location {
+  display: flex;
+}
+.navigation-home-view-location-icon {
+  width: 15px;
+  height: 15px;
+}
+.navigation-home-view-location-place {
+  font-size: var(--zh-twelve-size);
+  color: var(--normal-color);
+}

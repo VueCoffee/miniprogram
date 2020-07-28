@@ -4,8 +4,8 @@
   align-items: center;
 }
 .home-guide-item-view-image {
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
 }
 .home-guide-item-view-content {
   display: flex;

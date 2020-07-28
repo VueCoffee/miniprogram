@@ -1,7 +1,11 @@
 <!--pages/home/home.wxml-->
 <view>
- <banner dot-bottom="40"/>
- <view class="content-view">
-  <home_guide />
- </view>
+	<view class="banner-contaniner">
+		<banner dot-bottom="40" banner-height="280" />
+		<qr />
+	</view>
+	<view class="content-view">
+		<home_guide />
+		<home_function />
+	</view>
 </view>

@@ -1,6 +1,15 @@
 //app.js
 App({
   onLaunch: function () {
+
+    wx.getSystemInfo({
+      success: (result) => {
+        let info = wx.getMenuButtonBoundingClientRect()
+        this.globalData.navigationBarHeight = 10+info.bottom + info.top - result.statusBarHeight
+        this.globalData.navigationBarTop = (info.bottom - info.top)/ 2 + info.top
+      },
+    })
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -34,6 +43,8 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    navigationBarHeight: 0,
+    navigationBarTop: 0
   }
 })

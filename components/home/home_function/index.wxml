@@ -1,0 +1,6 @@
+<!--components/home/home_function/index.wxml-->
+<view class="home-function-view">
+	<block wx:for="{{itemData}}" wx:key="unique">
+		<home_function_item icon="{{item.icon}}" title="{{item.title}}" />
+	</block>
+</view>

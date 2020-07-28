@@ -1,0 +1,4 @@
+<!--components/button/button_qr/index.wxml-->
+<view class="qr-view" style="top: {{navigationBarTop}}px">
+ <image src="/image/icon/icon_qr.png"></image>
+</view>

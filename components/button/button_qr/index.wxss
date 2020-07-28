@@ -1,0 +1,19 @@
+/* components/button/button_qr/index.wxss */
+.qr-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  background-color: var(--transparent-white-color);
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.qr-view image {
+  width: 20px;
+  height: 20px;
+  
+}

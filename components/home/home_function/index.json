@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "home_function_item": "/components/home/home_function/home_function_item/index"
+  }
+}

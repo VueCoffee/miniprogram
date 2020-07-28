@@ -35,6 +35,7 @@ page {
   --checkbox-color: #DBDBDB;
   --skeleton-color: #dbdbdb4b;
   --line-color: #F3F4F5;
+  --transparent-white-color: #ffffff80;
 
   /* 中文文字大小 */
   --zh-twelve-size: 12px;

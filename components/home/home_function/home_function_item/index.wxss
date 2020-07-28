@@ -1,0 +1,15 @@
+/* components/home/home_function/home_function_item/index.wxss */
+.home-function-view-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-function-view-item-image {
+  width: 36px;
+  height: 36px;
+}
+.home-function-view-item-title {
+  margin-top: 3px;
+  font-size: var(--zh-twelve-size);
+  color: var(--text-gary-color);
+}

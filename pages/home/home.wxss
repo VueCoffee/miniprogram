@@ -1,4 +1,5 @@
 /* pages/home/home.wxss */
-.content-view {
+.content-view,
+.banner-contaniner {
   position: relative;
 }

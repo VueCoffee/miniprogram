@@ -1,0 +1,5 @@
+<!--components/home/home_function/home_function_item/index.wxml-->
+<view class="home-function-view-item">
+	<image class="home-function-view-item-image" src="{{icon}}"></image>
+	<text class="home-function-view-item-title">{{title}}</text>
+</view>

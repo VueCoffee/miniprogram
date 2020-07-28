@@ -1,6 +1,9 @@
 {
   "usingComponents": {
+    "navigation_home": "/components/navigation/navigation_home/index",
     "banner": "/components/banner/index",
-    "home_guide": "/components/home/home_guide/index"
+    "home_guide": "/components/home/home_guide/index",
+    "home_function": "/components/home/home_function/index",
+    "qr": "/components/button/button_qr/index"
   }
 }

@@ -1,0 +1,10 @@
+<!--components/navigation/navigation_home/index.wxml-->
+<view class="navigation-home-view" style="height: {{navigationBarHeight}}px">
+	<view class="navigation-home-view-content">
+		<text class="navigation-home-view-name">早上好, 咖啡</text>
+		<view class="navigation-home-view-location">
+			<image class="navigation-home-view-location-icon" src="/image/icon/icon_location.png"></image>
+			<text class="navigation-home-view-location-place">天府广场 · 3km</text>
+		</view>
+	</view>
+</view>
