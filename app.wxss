@@ -1,0 +1,53 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+/* 
+--main-blue-color 主色
+--normal-color 基本色
+--global-color 金色
+--bule-light-color 浅蓝色
+--green-light-color 浅绿色
+--orange-color 橘色
+--red-light-color 浅红色
+--text-color 文字颜色
+--text-gary-color 文字浅色
+*/
+page {
+  /* 颜色 */
+  --main-blue-color: #1010DA; 
+  --main-blue-navy-color: #06089A; 
+  --normal-color: #8A9198;
+  --global-color: #CCB08A;
+  --bule-light-color: #CEE6FF;
+  --green-light-color: #54C575;
+  --orange-color: #F0671A;
+  --red-light-color: #EF4D48;
+  --text-color: #1B2023;
+  --text-gary-color: #3E454C;
+  --checkbox-color: #DBDBDB;
+  --skeleton-color: #dbdbdb4b;
+
+  /* 中文文字大小 */
+  --zh-twelve-size: 12px;
+  --zh-fourteen-size: 14px;
+  --zh-sixteen-size: 16px;
+  --zh-eighteen-size: 18px;
+  --zh-twenty-size: 20px;
+  --zh-twenty-four-size: 24px;
+  /* 英文文字大小 */
+  --en-fourteen-size: 14px;
+  --en-sixteen-size: 16px;
+  --en-eighteen-size: 18px;
+
+  /* dot */
+  --dot-color: rgba(255,255,255, .4);
+  --dot-active-color: white;
+}

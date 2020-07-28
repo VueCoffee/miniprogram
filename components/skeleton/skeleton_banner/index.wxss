@@ -1,0 +1,6 @@
+/* components/skeleton/skeleton_banner/index.wxss */
+.skeleton-banner-view{
+  background-color: var(--skeleton-color);
+  width: 100%;
+  height: 100%;
+}

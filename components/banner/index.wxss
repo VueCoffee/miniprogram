@@ -1,0 +1,46 @@
+/* components/banner/index.wxss */
+.banner-view {
+  position: relative;
+}
+.banner-item {
+  display: flex;
+  justify-content: center;
+}
+.banner-item-image {
+  width: 100%;
+}
+.banner-item-image-radius {
+  border-radius: 10px;
+  width: 95%;
+}
+
+.banner-dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.banner-dot {
+  background-color: var(--dot-color);
+  width: 7px;
+  height: 7px;
+  margin: 0 3px;
+  border-radius: 50%;
+  animation-duration: .2s;
+}
+.banner-dot-active {
+  width: 20px;
+  border-radius: 20px;
+  background-color: var(--dot-active-color);
+  animation-name: dotanimate;
+}
+
+@keyframes dotanimate {
+  0% {
+    width: 7px;
+  }
+  100% {
+    width: 20px;
+  }
+}

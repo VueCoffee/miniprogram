@@ -1,0 +1,23 @@
+<!--components/banner/index.wxml-->
+<view class="banner-view" style="height: {{bannerHeight}}px">
+	<swiper class="banner" style="height: {{bannerHeight}}px" bindchange="swiperChange">
+		<block wx:if="{{bannerData.length > 0}}">
+			<swiper-item class="banner-item" wx:for="{{bannerData}}" wx:key="unique">
+				<image style="height: {{bannerHeight}}px" class="{{ home ? 'banner-item-image' : 'banner-item-image-radius'}}" src="{{item.image}}" mode="aspectFill">
+				</image>
+			</swiper-item>
+		</block>
+		<block wx:else>
+			<swiper-item class="banner-item">
+				<skeleton_banner style="height: {{bannerHeight}}px" class="{{ home ? 'banner-item-image' : 'banner-item-image-radius'}}" radius="{{home}}">
+				</skeleton_banner>
+			</swiper-item>
+		</block>
+	</swiper>
+	<view class="banner-dots">
+		<block wx:for="{{bannerData}}" wx:key="unique">
+			<view class="banner-dot {{currentIndex === index ? 'banner-dot-active' : ''}}">
+			</view>
+		</block>
+	</view>
+</view>

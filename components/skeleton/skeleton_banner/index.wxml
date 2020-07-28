@@ -1,0 +1,2 @@
+<!--components/skeleton/skeleton_banner/index.wxml-->
+<view class="skeleton-banner-view" style="border-radius: {{!radius ? 10 : 0}}px"></view>

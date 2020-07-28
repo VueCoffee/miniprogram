@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "home_banner": "/components/banner/index"
+  }
+}

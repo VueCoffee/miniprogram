@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/market/market",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#8A9198",
+    "selectedColor": "#1010DA",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/image/tabbar/home.png",
+        "selectedIconPath": "/image/tabbar/homes.png"
+      },
+      {
+        "pagePath": "pages/market/market",
+        "text": "商场",
+        "iconPath": "/image/tabbar/shop.png",
+        "selectedIconPath": "/image/tabbar/shops.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/image/tabbar/mine.png",
+        "selectedIconPath": "/image/tabbar/mines.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Coffee",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
