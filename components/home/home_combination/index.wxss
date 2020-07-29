@@ -10,6 +10,7 @@
   font-size: var(--zh-sixteen-size);
   color: var(--text-color);
   margin: 0 5px 0 15px;
+  font-weight: bold;
 }
 .home-combination-swiper {
   margin-top: 20px;

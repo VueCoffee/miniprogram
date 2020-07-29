@@ -74,9 +74,11 @@
 .home-combination-item-content-view-content-top>text:nth-of-type(1) {
   font-size: var(--zh-twelve-size);
   margin-bottom: 1px;
+  font-weight: bold;
 }
 .home-combination-item-content-view-content-top>text:nth-of-type(2) {
   font-size: var(--en-sixteen-size);
+  font-weight: bold;
 }
 .home-combination-item-content-view-add {
   width: 30px;

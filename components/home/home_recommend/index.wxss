@@ -13,6 +13,7 @@
   font-size: var(--zh-sixteen-size);
   color: var(--text-color);
   margin-left: 15px;
+  font-weight: bold;
 }
 .home-recommend-scroll-content-view {
   display: flex;

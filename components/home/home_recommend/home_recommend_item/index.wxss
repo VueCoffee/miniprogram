@@ -13,6 +13,7 @@
 .home-recommend-item-name {
   font-size: var(--zh-fourteen-size);
   max-lines: 1;
+  font-weight: bold;
 }
 
 .home-recommend-item-bottom {
@@ -32,6 +33,7 @@
 
 .home-recommend-item-bottom-price {
   font-size: var(--en-fourteen-size);
+  font-weight: bold;
 }
 
 .home-recommend-item-bottom-add {
