@@ -2,5 +2,6 @@
 .home-function-view{
   padding-top: 60px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 0 15px;
 }

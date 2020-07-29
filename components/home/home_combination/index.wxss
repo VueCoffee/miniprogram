@@ -1,0 +1,19 @@
+/* components/home/home_combination/index.wxss */
+.home-combination {
+  margin-top: 15px;
+}
+.home-combination-top {
+  display: flex;
+  align-items: center;
+}
+.home-combination-top-title {
+  font-size: var(--zh-sixteen-size);
+  color: var(--text-color);
+  margin: 0 5px 0 15px;
+}
+.home-combination-swiper {
+  margin-top: 20px;
+}
+.home-combination-swiper-item {
+  height: 60vw;
+}

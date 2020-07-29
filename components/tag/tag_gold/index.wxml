@@ -1,0 +1,2 @@
+<!--components/tag/tag_gold/index.wxml-->
+<text class="tag-gold">{{name}}</text>

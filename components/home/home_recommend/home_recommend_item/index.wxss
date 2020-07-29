@@ -1,0 +1,40 @@
+/* components/home/home_recommend/home_recommend_item/index.wxss */
+.home-recommend-item {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  margin: 10px 15px 10px 0;
+}
+.home-recommend-item-image {
+  width: 25vw;
+  height: 25vw;
+}
+
+.home-recommend-item-name {
+  font-size: var(--zh-fourteen-size);
+  max-lines: 1;
+}
+
+.home-recommend-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.home-recommend-item-bottom-prices {
+  color: var(--text-color);
+}
+
+.home-recommend-item-bottom-currency {
+  font-size: var(--zh-twelve-size);
+}
+
+.home-recommend-item-bottom-price {
+  font-size: var(--en-fourteen-size);
+}
+
+.home-recommend-item-bottom-add {
+  width: 18px;
+  height: 18px;
+}

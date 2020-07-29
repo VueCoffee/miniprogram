@@ -1,0 +1,24 @@
+<!--components/home/home_combination/home_combination_item/index.wxml-->
+
+<view class="home-combination-item">
+	<image class="home-combination-item-image" src="{{itemData.image}}" mode="aspectFill"></image>
+	<block wx:if="{{itemData.combination}}">
+		<tag-gold class="component-tag-gold" />
+	</block>
+	<view class="home-combination-item-content">
+		<text class="home-combination-item-content-title">{{itemData.title}}</text>
+		<text class="home-combination-item-content-description">{{itemData.desciption}}</text>
+		<view class="home-combination-item-content-view">
+			<block wx:for="{{itemData.list}}" wx:key="unique">
+				<image class="home-combination-item-content-view-image" src="{{item.image}}" />
+			</block>
+			<view class="home-combination-item-content-view-content">
+				<view class="home-combination-item-content-view-content-top">
+					<text>组合价¥</text><text>{{itemData.price}}</text>
+				</view>
+				<text>立省{{itemData.reducePrice}}元</text>
+			</view>
+			<image class="home-combination-item-content-view-add" src="/image/icon/icon_add.png" />
+		</view>
+	</view>
+</view>

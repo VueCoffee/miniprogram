@@ -1,0 +1,13 @@
+<!--components/home/home_combination/index.wxml-->
+<view class="home-combination">
+	<view class="home-combination-top">
+		<text class="home-combination-top-title">组合优惠</text>
+		<tag_black />
+	</view>
+	<swiper class="home-combination-swiper" style="height: 80vw" previous-margin="10px" next-margin="10px">
+
+		<swiper-item wx:for="{{combinationData}}" wx:key="unique">
+			<home_combination_item item-data="{{item}}"/>
+		</swiper-item>
+	</swiper>
+</view>

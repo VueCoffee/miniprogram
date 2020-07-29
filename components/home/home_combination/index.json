@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tag_black": "/components/tag/tag_black/index",
+    "home_combination_item": "/components/home/home_combination/home_combination_item/index"
+  }
+}

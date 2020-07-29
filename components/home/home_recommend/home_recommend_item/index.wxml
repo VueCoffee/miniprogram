@@ -1,0 +1,12 @@
+<!--components/home/home_recommend/home_recommend_item/index.wxml-->
+<view class="home-recommend-item">
+	<image class="home-recommend-item-image" src="{{image}}"></image>
+	<text class="home-recommend-item-name">{{name}}</text>
+	<view class="home-recommend-item-bottom">
+		<view class="home-recommend-item-bottom-prices">
+			<text class="home-recommend-item-bottom-currency">¥</text>
+			<text class="home-recommend-item-bottom-price">{{price}}</text>
+		</view>
+		<image class="home-recommend-item-bottom-add" src="/image/icon/icon_add.png"> </image>
+	</view>
+</view>

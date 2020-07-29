@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "home_recommend_item": "/components/home/home_recommend/home_recommend_item/index"
+  }
+}

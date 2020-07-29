@@ -1,0 +1,20 @@
+/* components/home/home_ recommend/index.wxss */
+.home-recommend {
+  margin-top: 15px;
+}
+
+.hor-line {
+  height: 1px;
+  background-color: var(--line-color);
+  margin: 20px 15px;
+}
+
+.home-recommend-title {
+  font-size: var(--zh-sixteen-size);
+  color: var(--text-color);
+  margin-left: 15px;
+}
+.home-recommend-scroll-content-view {
+  display: flex;
+  padding: 0 15px;
+}

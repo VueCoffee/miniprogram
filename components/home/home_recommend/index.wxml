@@ -1,0 +1,15 @@
+<!--components/home/home_recommend/index.wxml-->
+<view class="home-recommend">
+<view class="hor-line" />
+	<text class="home-recommend-title">为你推荐</text>
+	<scroll-view scroll-x="true">
+		<view class="home-recommend-scroll-content-view">
+			<block wx:for="{{recommendData}}" wx:key="unique">
+				<home_recommend_item 
+        image="{{item.image}}"
+        name="{{item.name}}"
+        price="{{item.price}}" />
+			</block>
+		</view>
+	</scroll-view>
+</view>
