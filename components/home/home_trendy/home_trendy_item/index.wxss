@@ -1,0 +1,39 @@
+/* components/home/home_trendy/home_trendy_item/index.wxss */
+.home-trendy-item {
+  width: calc((100vw - 40px) / 2);
+  color: var(--text-color);
+  font-weight: bold;
+  margin-top: 20px;
+}
+.home-trendy-item-image {
+  width: 100%;
+  height: calc((100vw - 40px) / 2);
+}
+.home-trendy-item-footer {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.home-trendy-item-title {
+  font-size: var(--zh-fourteen-size);
+}
+.home-trendy-item-prices {
+  display: flex;
+  align-items: baseline;
+  font-size: var(--zh-fourteen-size);
+}
+.home-trendy-item-prices text:nth-of-type(1) {
+  font-size: var(--zh-ten-size);
+  margin-right: 2px;
+}
+
+.home-trendy-item-prices text:nth-of-type(3) {
+  font-size: var(--zh-ten-size);
+  color: var(--text-gary-color);
+  font-weight: 300;
+  margin-left: 5px;
+}
+.home-trendy-item-add {
+  width: 20px;
+  height: 20px;
+}

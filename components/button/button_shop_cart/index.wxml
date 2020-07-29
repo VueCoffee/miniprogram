@@ -1,0 +1,5 @@
+<!--components/button/button_shop_cart/index.wxml-->
+<view class="button-shop-cart">
+ <image  class="button-shop-cart-image" src="/image/icon/icon_shop_cart.png"></image>
+ <text class="button-shop-cart-num">1</text>
+</view>

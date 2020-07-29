@@ -1,0 +1,32 @@
+/* components/button/button_shop_cart/index.wxss */
+.button-shop-cart{
+  position: sticky;
+  bottom: 20px;
+  left: calc(100vw - 50px - 10px);
+  z-index: 999;
+  background-color: var(--background-white-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 3px 3px 10px var(--shadow-color), -3px -3px 10px var(--shadow-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-shop-cart-image {
+  width: 25px;
+  height: 25px;
+}
+.button-shop-cart-num {
+  background-color: var(--red-light-color);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  font-size: var(--en-ten-size);
+  position: absolute;
+  transform: translate(13px, -10px) scale(.7);
+}

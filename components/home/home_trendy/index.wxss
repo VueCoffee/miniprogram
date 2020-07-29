@@ -1,0 +1,29 @@
+/* components/home/home_trendy/index.wxss */
+.home-trendy{
+  margin: 20px 15px;
+}
+.home-trendy-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-trendy-head-title {
+  font-size: var(--zh-sixteen-size);
+  color: var(--text-color);
+  font-weight: bold;
+  margin-right: 5px;
+}
+.home-trendy-head-more {
+  flex: 1;
+  font-size: var(--zh-fourteen-size);
+  color: var(--normal-color);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+.home-trendy-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

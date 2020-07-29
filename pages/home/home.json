@@ -6,6 +6,9 @@
     "home_function": "/components/home/home_function/index",
     "qr": "/components/button/button_qr/index",
     "home_recommend": "/components/home/home_recommend/index",
-    "home_combination": "/components/home/home_combination/index"
+    "home_combination": "/components/home/home_combination/index",
+    "home_trendy": "/components/home/home_trendy/index",
+    "signature": "/components/signature/index",
+    "button_shop_cart": "/components/button/button_shop_cart/index"
   }
 }

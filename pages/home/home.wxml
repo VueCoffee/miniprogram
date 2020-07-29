@@ -1,5 +1,5 @@
 <!--pages/home/home.wxml-->
-<view>
+<view class="home-view">
 	<view class="banner-contaniner">
 		<banner dot-bottom="40" banner-height="280" />
 		<qr />
@@ -9,6 +9,8 @@
 		<home_function />
 		<home_recommend />
 		<home_combination />
-		<view style="height: 300px"></view>
+		<home_trendy />
+		<signature />
 	</view>
+	<button_shop_cart />
 </view>

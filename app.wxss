@@ -39,6 +39,7 @@ page {
   --transparent-white-color: #ffffff80;
   --transparent-color: #ffffff00;
   --transparent-black-color: #00000090;
+  --shadow-color: #1b202333;
 
   /* 中文文字大小 */
   --zh-ten-size: 10px;
@@ -49,6 +50,7 @@ page {
   --zh-twenty-size: 20px;
   --zh-twenty-four-size: 24px;
   /* 英文文字大小 */
+  --en-ten-size: 14px;
   --en-fourteen-size: 14px;
   --en-sixteen-size: 16px;
   --en-eighteen-size: 18px;
