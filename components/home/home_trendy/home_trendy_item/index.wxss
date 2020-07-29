@@ -1,13 +1,13 @@
 /* components/home/home_trendy/home_trendy_item/index.wxss */
 .home-trendy-item {
-  width: calc((100vw - 40px) / 2);
+  width: calc((100vw - 50px) / 2);
   color: var(--text-color);
   font-weight: bold;
   margin-top: 20px;
 }
 .home-trendy-item-image {
   width: 100%;
-  height: calc((100vw - 40px) / 2);
+  height: calc((100vw - 50px) / 2);
 }
 .home-trendy-item-footer {
   display: flex;

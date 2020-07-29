@@ -1,8 +1,8 @@
 /* components/button/button_shop_cart/index.wxss */
 .button-shop-cart{
-  position: sticky;
+  position: fixed;
   bottom: 20px;
-  left: calc(100vw - 50px - 10px);
+  right: 10px;
   z-index: 999;
   background-color: var(--background-white-color);
   border-radius: 50%;
