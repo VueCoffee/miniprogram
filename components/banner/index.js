@@ -4,13 +4,13 @@ Component({
    * 组件的属性列表
    */
   properties: {
+    ishome: {
+      type: Boolean,
+      value: false
+    },
     bannerHeight: {
       type: Number,
       value: 220
-    },
-    home: {
-      type: Boolean,
-      value: true
     },
     dotBottom: {
       type: Number,

@@ -1,6 +1,6 @@
 /* components/home/home_trendy/index.wxss */
 .home-trendy{
-  margin: 20px 15px;
+  margin: 0 15px;
 }
 .home-trendy-head {
   display: flex;

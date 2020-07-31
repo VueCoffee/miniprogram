@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "button_shop_cart": "/components/button/button_shop_cart/index"
+  }
 }

@@ -1,1 +1,4 @@
 /* pages/mine/mine.wxss */
+.mine-view {
+  position: relative;
+}

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/product/product",
     "pages/home/home",
     "pages/market/market",
     "pages/mine/mine",
@@ -12,7 +13,7 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/home/home",
+        "pagePath": "pages/product/product",
         "text": "首页",
         "iconPath": "/image/tabbar/home.png",
         "selectedIconPath": "/image/tabbar/homes.png"

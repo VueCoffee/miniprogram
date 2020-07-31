@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-content": "/components/product/vcontent/index"
+  }
+}

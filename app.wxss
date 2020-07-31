@@ -40,6 +40,7 @@ page {
   --transparent-color: #ffffff00;
   --transparent-black-color: #00000090;
   --shadow-color: #1b202333;
+  --tab-color: #F3F7F7;
 
   /* 中文文字大小 */
   --zh-ten-size: 10px;

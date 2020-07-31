@@ -1,0 +1,12 @@
+/* pages/product/product.wxss */
+.product-banner-view {
+  position: fixed;
+  width: 100%;
+  background-color: var(--background-white-color);
+}
+.product-list-view {
+  position: fixed;
+  width: 100%;
+  background-color: var(--background-white-color);
+  display: flex;
+}

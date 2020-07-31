@@ -1,0 +1,32 @@
+/* components/product/vtab/index.wxss */
+.vtab-view {
+  display: flex;
+  height: 100%;
+}
+
+.vtab-bar-scrollview {
+  width: 80px;
+  height: 100%;
+  background-color: var(--tab-color);
+}
+
+.vtab-bar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--text-color);
+  background-color: var(--tab-color);
+}
+.vtab-bar-title {
+  font-size: var(--zh-twelve-size);
+}
+.active-tab {
+  background-color: var(--background-white-color);
+}
+
+.vtab-content-scrollview {
+  width: calc(100vw - 80px);
+  height: 100%;
+}

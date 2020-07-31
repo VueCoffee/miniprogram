@@ -9,4 +9,5 @@
   color: var(--normal-color);
   text-transform: lowercase;
   font-weight: bold;
+  margin-top: 20px;
 }
