@@ -17,19 +17,20 @@ Component({
 
   },
   relations: {
-    '../vtab/index' : {
+    '../vtab/index': {
       type: 'parent'
     }
   },
-
+  lifetimes: {
+    attached: function attached() {}
+  },
   /**
    * 组件的方法列表
    */
   methods: {
-    calcHeight: function(callback) {
+    calcHeight: function (callback) {
       const query = this.createSelectorQuery()
-      query.select('.vcontent-view').boundingClientRect(function(rect) {
-        console.log(rect.height)
+      query.select('.vcontent-view').boundingClientRect(function (rect) {
         callback && callback(rect)
       }).exec()
     }

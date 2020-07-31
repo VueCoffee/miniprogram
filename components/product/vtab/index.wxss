@@ -6,27 +6,34 @@
 
 .vtab-bar-scrollview {
   width: 80px;
-  height: 100%;
+  height: calc(100% - 10px);
   background-color: var(--tab-color);
+  border-radius: 10px;
+  margin: 5px;
 }
 
 .vtab-bar {
-  height: 50px;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   color: var(--text-color);
   background-color: var(--tab-color);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .vtab-bar-title {
   font-size: var(--zh-twelve-size);
 }
 .active-tab {
   background-color: var(--background-white-color);
+  color: var(--main-blue-color);
 }
 
 .vtab-content-scrollview {
   width: calc(100vw - 80px);
   height: 100%;
+  padding: 5px;
+  box-sizing: border-box;
 }

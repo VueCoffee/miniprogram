@@ -6,8 +6,7 @@ Component({
   properties: {
     barData: {
       type: Array,
-      value: [
-        {
+      value: [{
           title: "买过",
           description: ""
         },
@@ -34,8 +33,7 @@ Component({
         {
           title: "幸运小食",
           description: "66折优惠"
-        }
-        ,
+        },
         {
           title: "周边潮品",
           description: ""
@@ -53,43 +51,65 @@ Component({
     _contentHeight: {},
     _heightRecords: []
   },
-  relations: {
-    '../vcontent/index' : {
-      type: "child",
-      linked: function(target) {
-        const _this = this
-        target.methods.calcHeight(function(rect) {
-          _this.data._contentHeight[target.properties.tabIndex] = rect.height
-          console.log(rect.height)
-          _this.calcHeight()
-        })
-      }
+
+  lifetimes: {
+    attached: function () {
+      this.calcHeight()
     }
   },
-
   /**
    * 组件的方法列表
    */
   methods: {
-    handleTabClick: function(event) {
+    handleTabClick: function (event) {
       const _heightRecords = this.data._heightRecords
       const index = event.currentTarget.dataset.index
       const contentScrollTop = _heightRecords[index - 1] || 0
-      console.log(contentScrollTop)
       this.setData({
         activeTab: event.currentTarget.dataset.index,
         contentScrollTop: contentScrollTop
       })
     },
-    calcHeight: function() {
-      const _contentHeight = this.data._contentHeight
+    calcHeight: function () {
+      const _this = this
       const _heightRecords = []
       let temp = 0;
-      this.properties.barData.forEach(function(item, index) {
-        _heightRecords[index] = temp + (_contentHeight[index] || 0)
-        temp = _heightRecords[index] 
+      this.properties.barData.forEach(function (item, index) {
+        _this.calcContentHeight(index, function (rect) {
+          _heightRecords[index] = temp + (rect.height || 0)
+          temp = _heightRecords[index]
+          _this.setData({
+            _heightRecords: _heightRecords
+          })
+        })
       })
-      this.data._heightRecords = _heightRecords
+    },
+    calcContentHeight: function (index, callback) {
+      this.createSelectorQuery().select(`.vtab-vcontent-view-${index}`).boundingClientRect(function (rect) {
+        callback && callback(rect)
+      }).exec()
+    },
+    handleContentScroll: function(event) {
+      const _heightRecords = this.data._heightRecords
+      if(_heightRecords.length === 0) {
+        return
+      }
+      const scrollTop = event.detail.scrollTop
+      const length = this.properties.barData.length
+      let index = 0
+      if(scrollTop >= _heightRecords[0]) {
+        for (let i = 1; i < length; i++) {
+          if(scrollTop >= _heightRecords[i - 1] && scrollTop < _heightRecords[i]) {
+            index = i
+            break
+          }
+        }
+      }
+      if(index != this.data.activeTab) {
+        this.setData({
+          activeTab: index
+        })
+      }
     }
   }
 })
