@@ -1,4 +1,7 @@
 <!--components/product/vcontent/index.wxml-->
 <view class="vcontent-view">
-<text>vcontent{{tabIndex}}</text>
+  <text class="vcontent-title">{{contentTitle}}</text>
+  <vcontent-item />
+  <vcontent-item />
+  <vcontent-item />
 </view>

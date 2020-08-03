@@ -33,6 +33,7 @@ page {
   --red-light-color: #EF4D48;
   --text-color: #1B2023;
   --text-gary-color: #3E454C;
+  --gary-color: #00000036;
   --checkbox-color: #DBDBDB;
   --skeleton-color: #dbdbdb4b;
   --line-color: #F3F4F5;

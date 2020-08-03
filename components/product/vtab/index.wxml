@@ -10,7 +10,12 @@
 
 	<scroll-view scroll-y class="vtab-content-scrollview" scroll-top="{{contentScrollTop}}" bindscroll="handleContentScroll">
 		<block wx:for="{{barData}}" wx:key="title">
-			<v-content class="vtab-vcontent-view-{{index}}" tab-index="{{index}}" />
+			<block wx:if="{{index === 0}}">
+				<history class="vtab-vcontent-view-{{index}}" />
+			</block>
+			<block wx:else>
+				<v-content class="vtab-vcontent-view-{{index}}" content-title="{{item.title}}" />
+			</block>
 		</block>
 	</scroll-view>
 </view>

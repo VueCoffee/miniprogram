@@ -1,0 +1,18 @@
+<!--components/product/vcontent/vcontent-item/index.wxml-->
+<view class="vcontent-item">
+	<image src="/image/test/coffee_i.png" class="vcontent-item-image"></image>
+	<view class="vcontent-item-content">
+		<view>
+			<tag-hot />
+			<text class="history-item-title">中绳黑糖拿铁</text>
+		</view>
+		<text class="history-item-title-en">Brown Sugar Latte</text>
+		<view class="history-item-bottom">
+			<view class="history-item-prices">
+				<text>¥</text>
+				<text>27</text>
+			</view>
+			<button-add rect="20" />
+		</view>
+	</view>
+</view>

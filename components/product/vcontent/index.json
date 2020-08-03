@@ -1,4 +1,6 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "vcontent-item": "/components/product/vcontent/vcontent-item/index"
+  }
 }

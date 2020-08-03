@@ -1,0 +1,11 @@
+<!--components/product/vcontent/history/history-item/index.wxml-->
+<view class="history-item">
+  <text class="history-item-title">{{historyTitle}}</text>
+  <view class="history-item-bottom">
+  <view class="history-item-prices">
+   <text>¥</text> 
+   <text>{{price}}</text>
+  </view>
+   <button-add rect="20"/>
+  </view>
+</view>

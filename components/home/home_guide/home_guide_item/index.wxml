@@ -1,5 +1,5 @@
 <!--components/home/home_guide/home_guide_item/index.wxml-->
-<view class="home-guide-item-view">
+<view class="home-guide-item-view" bindtap="toProductList">
   <image class="home-guide-item-view-image" src="{{icon}}"></image>
   <view  class="home-guide-item-view-content">
    <text class="home-guide-item-view-title">{{title}}</text>

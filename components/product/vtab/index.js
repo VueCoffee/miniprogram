@@ -6,7 +6,8 @@ Component({
   properties: {
     barData: {
       type: Array,
-      value: [{
+      value: [
+        {
           title: "买过",
           description: ""
         },

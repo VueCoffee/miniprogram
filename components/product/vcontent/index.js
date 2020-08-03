@@ -7,6 +7,10 @@ Component({
     tabIndex: {
       type: Number,
       value: 0
+    },
+    contentTitle: {
+      type: String,
+      value: "推荐"
     }
   },
 

@@ -1,0 +1,6 @@
+/* components/product/vcontent/history/index.wxss */
+
+.history-view {
+  display: flex;
+  padding: 0 10px;
+}

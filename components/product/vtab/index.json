@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "v-content": "/components/product/vcontent/index"
+    "v-content": "/components/product/vcontent/index",
+    "history": "/components/product/history/index"
   }
 }

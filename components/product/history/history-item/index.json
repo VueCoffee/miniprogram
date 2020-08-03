@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "button-add": "/components/button/button-add/index"
+  }
+}

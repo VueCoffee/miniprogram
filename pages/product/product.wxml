@@ -1,10 +1,10 @@
 <!--pages/product/product.wxml-->
 <view>
 	<navigation-product />
-	<view class="product-banner-view" style="top:{{navigationBarHeight + 20}}px">
+	<view class="product-banner-view" style="top:{{navigationBarHeight}}px">
 		<banner ishome="{{ishome}}" dot-bottom="10" banner-height="120" />
 	</view>
-	<view class="product-list-view" style="height: calc(100% - {{navigationBarHeight + 150}}px); top: {{navigationBarHeight + 150}}px">
+	<view class="product-list-view" style="height: calc(100vh - {{navigationBarHeight + 130}}px); top: {{navigationBarHeight + 130}}px">
 		<v-tab />
 	</view>
 </view>

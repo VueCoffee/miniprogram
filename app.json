@@ -1,11 +1,11 @@
 {
   "pages": [
-    "pages/product/product",
     "pages/home/home",
     "pages/market/market",
     "pages/mine/mine",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/product/product"
   ],
   "tabBar": {
     "color": "#8A9198",
@@ -13,7 +13,7 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/product/product",
+        "pagePath": "pages/home/home",
         "text": "首页",
         "iconPath": "/image/tabbar/home.png",
         "selectedIconPath": "/image/tabbar/homes.png"

@@ -21,6 +21,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    onback: function() {
+      wx.navigateBack({
+        delta: 1,
+      })
+    }
   }
 })

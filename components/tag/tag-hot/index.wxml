@@ -1,0 +1,2 @@
+<!--components/tag/tag-hot/index.wxml-->
+<image class="tag-hot" src="/image/icon/icon_hot.png"></image>

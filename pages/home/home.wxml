@@ -2,7 +2,7 @@
 
 <view class="home-view">
 	<view class="banner-contaniner">
-		<banner dot-bottom="40" banner-height="280" />
+		<banner dot-bottom="40" banner-height="280" ishome="true"/>
 		<qr />
 	</view>
 	<button_shop_cart />

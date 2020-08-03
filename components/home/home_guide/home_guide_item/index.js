@@ -29,6 +29,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    toProductList: function() {
+      wx.navigateTo({
+        url: '/pages/product/product',
+      })
+    }
   }
 })

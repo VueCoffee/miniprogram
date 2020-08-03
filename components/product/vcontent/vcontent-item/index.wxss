@@ -1,0 +1,44 @@
+/* components/product/vcontent/vcontent-item/index.wxss */
+.vcontent-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.vcontent-item-image {
+  width: 70px;
+  height: 70px;
+}
+.vcontent-item-content {
+  flex: 1;
+}
+.history-item-title {
+  font-size: var(--zh-sixteen-size);
+  color: var(--text-color);
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.history-item-title-en {
+  font-size: var(--zh-ten-size);
+  color: var(--gary-color);
+}
+.history-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.history-item-prices {
+  display: flex;
+  align-items: baseline;
+}
+
+.history-item-prices text:nth-of-type(1) {
+  font-size: var(--zh-ten-size);
+  color: var(--text-gary-color);
+}
+.history-item-prices text:nth-of-type(2) {
+  font-size: var(--zh-fourteen-size);
+  color: var(--text-color);
+  font-weight: bold;
+}

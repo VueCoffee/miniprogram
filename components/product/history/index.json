@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "history-item" : "/components/product/history/history-item/index"
+  }
+}

@@ -1,0 +1,34 @@
+/* components/product/vcontent/history/history-item/index.wxss */
+.history-item {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px var(--shadow-color),-1px -1px 5px var(--shadow-color);
+  min-width: 120px;
+  margin: 10px 0px;
+  margin-right: 10px;
+}
+.history-item-title {
+  font-size: var(--zh-sixteen-size);
+  color: var(--text-color);
+  font-weight: bold;
+}
+.history-item-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.history-item-prices {
+  flex: 1;
+  display: flex;
+  align-items: baseline;
+}
+
+.history-item-prices text:nth-of-type(1) {
+  font-size: var(--zh-ten-size);
+  color: var(--text-gary-color);
+}
+.history-item-prices text:nth-of-type(2) {
+  font-size: var(--twelve-size);
+  color: var(--text-color);
+}

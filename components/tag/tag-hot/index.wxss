@@ -1,0 +1,5 @@
+/* components/tag/tag-hot/index.wxss */
+.tag-hot {
+ width: 20px;
+ height: 15px;
+}

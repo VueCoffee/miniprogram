@@ -1,0 +1,9 @@
+<!--components/product/vcontent/history/index.wxml-->
+<scroll-view scroll-x>
+	<view class="history-view">
+		<history-item history-title="冲绳黑糖拿铁" price="27"/>
+		<history-item history-title="芒芒芝士荣香茶" price="33" />
+		<history-item history-title="巧克力摩卡" price="38" />
+    <history-item history-title="香草拿铁" price="25" />
+	</view>
+</scroll-view>

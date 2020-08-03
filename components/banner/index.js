@@ -6,7 +6,7 @@ Component({
   properties: {
     ishome: {
       type: Boolean,
-      value: false
+      value: true
     },
     bannerHeight: {
       type: Number,

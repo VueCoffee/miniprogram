@@ -1,5 +1,12 @@
 /* components/product/vcontent/index.wxss */
 .vcontent-view {
-  width: 100%;
-  height: 200px;
+  width: 95%;
+  margin-top: 20px;
+}
+
+.vcontent-title {
+  font-size: var(--zh-sixteen-size);
+  color: var(--text-color);
+  margin-left: 10px;
+  font-weight: bold;
 }

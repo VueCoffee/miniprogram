@@ -1,0 +1,2 @@
+<!--components/button/button-add/index.wxml-->
+<image class="button-add" src="/image/icon/icon_add.png" style="height: {{rect}}px; width: {{rect}}px"></image>
