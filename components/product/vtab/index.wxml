@@ -14,7 +14,7 @@
 				<history class="vtab-vcontent-view-{{index}}" />
 			</block>
 			<block wx:else>
-				<v-content class="vtab-vcontent-view-{{index}}" content-title="{{item.title}}" />
+				<v-content bind:shopnum="handleShopNum" class="vtab-vcontent-view-{{index}}" content-title="{{item.title}}" />
 			</block>
 		</block>
 	</scroll-view>

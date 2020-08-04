@@ -1,0 +1,3 @@
+<!--components/button/button-reduce/index.wxml-->
+<image class="button-reduce" src="/image/icon/icon_short_dis.png" style="height: {{rect}}px; width: {{rect}}px" mode="aspectFill"></image>
+

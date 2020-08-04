@@ -10,3 +10,10 @@
   background-color: var(--background-white-color);
   display: flex;
 }
+
+.component-shopcart-view {
+  position: fixed;
+  width: 90%;
+  bottom: 20px;
+  left: 5%;
+}

@@ -2,7 +2,8 @@
   "usingComponents": {
     "navigation-product": "/components/navigation/navigation-product/index",
     "banner": "/components/banner/index",
-    "v-tab": "/components/product/vtab/index"
+    "v-tab": "/components/product/vtab/index",
+    "shopcart": "/components/product/shopcart/index"
   },
   "navigationBarTextStyle": "black"
 }

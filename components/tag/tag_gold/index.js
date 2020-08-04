@@ -7,6 +7,22 @@ Component({
     name: {
       type: String,
       value: "口碑推荐"
+    },
+    fontSize: {
+      type: Number,
+      value: 12
+    },
+    width: {
+      type: String,
+      value: "auto"
+    },
+    height: {
+      type: String,
+      value: "auto"
+    },
+    padding: {
+      type: String,
+      value: "1px 5px"
     }
   },
 

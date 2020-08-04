@@ -1,0 +1,19 @@
+<!--components/product/shopcart/index.wxml-->
+<view class="shopcart-view">
+	<view class="shopcart-view-num-view">
+		<image class="shopcart-view-num-image" src="/image/icon/icon_shopping_bag.png" />
+		<block wx:if="{{shopnum.num > 0}}">
+			<text class="shopcart-view-num">{{shopnum.num}}</text>
+		</block>
+	</view>
+	<view class="shopcart-view-round-box">
+		<view class="shopcart-view-content">
+			<view class="shopcart-view-content-prices">
+				<text>总计 ¥</text>
+				<text> {{shopnum.price}}</text>
+			</view>
+			<text class="shopcart-view-content-free">{{shopnum.price > 35 ? '免配送费' : '满35元免配送费'}}</text>
+		</view>
+		<tag-gold name="结算" font-size="18" width="60px" padding="5px 20px" />
+	</view>
+</view>

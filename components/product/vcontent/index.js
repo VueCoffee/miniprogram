@@ -18,7 +18,45 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    cofficeData: [
+      {
+        image: "/image/test/coffee_i.png",
+        name: "冲绳黑糖拿铁",
+        price: 27,
+        hot: true
+      },
+      {
+        image: "/image/test/coffee_i1.png",
+        name: "陨石焦糖拿铁",
+        price: 27,
+        hot: true
+      },
+      {
+        image: "/image/test/coffee_i2.png",
+        name: "巧克力摩卡",
+        price: 24,
+        hot: true
+      },
+      {
+        image: "/image/test/coffee_i.png",
+        name: "卡布奇洛",
+        price: 21,
+        hot: false
+      },
+      {
+        image: "/image/test/coffee_i1.png",
+        name: "陨石焦糖拿铁",
+        price: 27,
+        hot: false
+      },
+      {
+        image: "/image/test/coffee_i2.png",
+        name: "巧克力摩卡",
+        price: 24,
+        hot: false
+      }
+      
+    ]
   },
   relations: {
     '../vtab/index': {
@@ -37,6 +75,7 @@ Component({
       query.select('.vcontent-view').boundingClientRect(function (rect) {
         callback && callback(rect)
       }).exec()
-    }
+    },
+ 
   }
 })

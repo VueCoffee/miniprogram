@@ -3,6 +3,6 @@
   background-color: var(--gold-color);
   color: var(--white-color);
   font-size: var(--zh-twelve-size);
-  padding: 1px 5px;
   border-radius: 20px;
+  box-sizing: border-box;
 }

@@ -1,2 +1,2 @@
 <!--components/tag/tag_gold/index.wxml-->
-<text class="tag-gold">{{name}}</text>
+<text class="tag-gold" style="font-size: {{fontSize}}px; width: {{width}}; height: {{height}};padding: {{padding}}">{{name}}</text>

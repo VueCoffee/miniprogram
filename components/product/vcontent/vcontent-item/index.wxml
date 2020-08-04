@@ -1,18 +1,28 @@
 <!--components/product/vcontent/vcontent-item/index.wxml-->
 <view class="vcontent-item">
-	<image src="/image/test/coffee_i.png" class="vcontent-item-image"></image>
+
+	<image src="{{itemData.image}}" class="vcontent-item-image"></image>
+
 	<view class="vcontent-item-content">
 		<view>
-			<tag-hot />
-			<text class="history-item-title">中绳黑糖拿铁</text>
+			<block wx:if="{{itemData.hot}}">
+				<tag-hot />
+			</block>
+			<text class="history-item-title">{{itemData.name}}</text>
 		</view>
 		<text class="history-item-title-en">Brown Sugar Latte</text>
 		<view class="history-item-bottom">
 			<view class="history-item-prices">
 				<text>¥</text>
-				<text>27</text>
+				<text>{{itemData.price}}</text>
 			</view>
-			<button-add rect="20" />
+			<view class="history-item-num-view">
+				<block wx:if="{{num > 0}}">
+					<button-reduce rect="18"  bindtap="reduceClick" data-price="{{itemData.price}}"/>
+					<text>{{num}}</text>
+				</block>
+				<button-add rect="18"  bindtap="addClick" data-price="{{itemData.price}}"/>
+			</view>
 		</view>
 	</view>
 </view>

@@ -2,14 +2,15 @@
 .vcontent-item {
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .vcontent-item-image {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
 }
 .vcontent-item-content {
   flex: 1;
+  margin-left: 10px;
 }
 .history-item-title {
   font-size: var(--zh-sixteen-size);
@@ -26,7 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 .history-item-prices {
   display: flex;
@@ -41,4 +42,16 @@
   font-size: var(--zh-fourteen-size);
   color: var(--text-color);
   font-weight: bold;
+}
+
+.history-item-num-view {
+  display: flex;
+  align-items: center;
+}
+.history-item-num-view text {
+  margin-bottom: 3px;
+  text-align: center;
+  width: 40px;
+  font-size: var(--zh-fourteen-size);
+  color: var(--text-color);
 }

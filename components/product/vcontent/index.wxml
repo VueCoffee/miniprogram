@@ -1,7 +1,7 @@
 <!--components/product/vcontent/index.wxml-->
-<view class="vcontent-view">
-  <text class="vcontent-title">{{contentTitle}}</text>
-  <vcontent-item />
-  <vcontent-item />
-  <vcontent-item />
+<view class="vcontent-view" bind:shopnum="handleShopNum">
+	<text class="vcontent-title">{{contentTitle}}</text>
+	<block wx:for="{{cofficeData}}" wx:key="name">
+		<vcontent-item item-data="{{item}}" />
+	</block>
 </view>

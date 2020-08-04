@@ -64,3 +64,8 @@ page {
   /* 其他颜色 */
   --background-white-color: white;
 }
+
+text {
+  margin: 0;
+  padding: 0;
+}

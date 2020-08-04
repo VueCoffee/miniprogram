@@ -7,7 +7,11 @@ Page({
    */
   data: {
     navigationBarHeight: app.globalData.navigationBarHeight,
-    ishome: false
+    ishome: false,
+    shopnum: {
+      num: 0,
+      price: 0
+    }
   },
 
   /**
@@ -64,5 +68,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  handleShopNum: function(event) {
+    let shopnum = this.data.shopnum
+    shopnum.num = shopnum.num + event.detail.num
+    shopnum.price = shopnum.price + event.detail.price
+    this.setData({
+      shopnum: shopnum
+    })
   }
 })
