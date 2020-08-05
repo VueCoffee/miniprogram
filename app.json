@@ -5,7 +5,8 @@
     "pages/mine/mine",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/product/product"
+    "pages/product/product",
+    "pages/cart/cart"
   ],
   "tabBar": {
     "color": "#8A9198",
@@ -23,6 +24,12 @@
         "text": "商场",
         "iconPath": "/image/tabbar/shop.png",
         "selectedIconPath": "/image/tabbar/shops.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/image/tabbar/cart.png",
+        "selectedIconPath": "/image/tabbar/carts.png"
       },
       {
         "pagePath": "pages/mine/mine",

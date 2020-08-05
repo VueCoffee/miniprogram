@@ -1,0 +1,6 @@
+<!--components/cart/list/index.wxml-->
+<view class="list-view">
+	<block wx:for="{{cofficeData}}" wx:key="name">
+		<list-item item-data="{{item}}" />
+	</block>
+</view>

@@ -5,7 +5,7 @@
 		<banner dot-bottom="40" banner-height="280" ishome="true"/>
 		<qr />
 	</view>
-	<button_shop_cart />
+	<!-- <button_shop_cart /> -->
 	<view class="content-view">
 		<home_guide />
 		<home_function />

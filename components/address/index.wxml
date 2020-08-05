@@ -1,0 +1,12 @@
+<!--components/address/index.wxml-->
+<view class="navigation-product-content">
+	<view class="navigation-product-content-top">
+		<text>派送至: </text>
+		<text>大悦中心A座209</text>
+	</view>
+	<view class="navigation-product-content-bottom">
+		<text>满35元包邮 · </text>
+		<image class="navigation-product-content-bottom-icon" src="/image/icon/icon_safe.png"></image>
+		<text>慢必赔</text>
+	</view>
+</view>

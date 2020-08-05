@@ -1,0 +1,11 @@
+/* components/cart/head/index.wxss */
+.cart-head {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: var(--background-white-color);
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}

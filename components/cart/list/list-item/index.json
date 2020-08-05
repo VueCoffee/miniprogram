@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tag-hot": "/components/tag/tag-hot/index",
+    "button-add": "/components/button/button-add/index",
+    "button-reduce": "/components/button/button-reduce/index"
+  }
+}

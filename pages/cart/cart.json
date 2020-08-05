@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "cart-head": "/components/cart/head/index",
+    "cart-list": "/components/cart/list/index",
+    "home-recommend": "/components/home/home_recommend/index",
+    "home-combination": "/components/home/home_combination/index",
+    "shopcart": "/components/product/shopcart/index"
+  }
+}

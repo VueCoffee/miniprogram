@@ -1,0 +1,5 @@
+/* components/cart/list/index.wxss */
+.list-view {
+  margin-top: 10px;
+  border-top: solid 1px var(--line-color);
+}

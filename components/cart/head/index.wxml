@@ -1,0 +1,4 @@
+<!--components/cart/head/index.wxml-->
+<view class="cart-head" style="height: {{navigationBarHeight}}px;">
+	<address />
+</view>

@@ -1,4 +1,4 @@
 <!--pages/mine/mine.wxml-->
 <view class="mine-view">
-<button_shop_cart />
+<!-- <button_shop_cart /> -->
 </view>

@@ -1,0 +1,16 @@
+/* pages/cart/cart.wxss */
+.cart-view {
+  position: relative;
+}
+.cart-head {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+}
+
+.component-shopcart-view {
+  position: fixed;
+  width: 90%;
+  bottom: 20px;
+  left: 5%;
+}

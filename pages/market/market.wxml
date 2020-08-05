@@ -1,4 +1,4 @@
 <!--pages/market/market.wxml-->
 <view class="market-view">
-<button_shop_cart />
+<!-- <button_shop_cart /> -->
 </view>

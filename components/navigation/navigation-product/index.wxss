@@ -15,21 +15,3 @@
   width: 32px;
   height: 32px;
 }
-
-.navigation-product-content {
-  font-size: var(--zh-fourteen-size);
-  color: var(--text-color);
-  margin-left: 20px;
-}
-
-.navigation-product-content-bottom {
-  font-size: var(--zh-ten-size);
-  color: var(--normal-color);
-  display: flex;
-  align-items: center;
-}
-
-.navigation-product-content-bottom-icon {
-  width: 10px;
-  height: 10px;
-}

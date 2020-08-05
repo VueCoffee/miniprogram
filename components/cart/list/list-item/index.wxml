@@ -1,0 +1,28 @@
+<!--components/cart/list/list-item/index.wxml-->
+<view class="list-item">
+  <image src="/image/icon/icon_{{isCheck ? 'checked' : 'check'}}.png" class="list-item-check" bindtap="hanlderItemCheckClick"/>
+	<image src="{{itemData.image}}" class="list-item-image"></image>
+
+	<view class="list-item-content">
+		<view>
+			<block wx:if="{{itemData.hot}}">
+				<tag-hot />
+			</block>
+			<text class="list-item-title">{{itemData.name}}</text>
+		</view>
+		<text class="list-item-title-en">Brown Sugar Latte</text>
+		<view class="list-item-bottom">
+			<view class="list-item-prices">
+				<text>¥</text>
+				<text>{{itemData.price}}</text>
+			</view>
+			<view class="list-item-num-view">
+				<block wx:if="{{num > 0}}">
+					<button-reduce rect="18"  bindtap="reduceClick" data-price="{{itemData.price}}"/>
+					<text>{{num}}</text>
+				</block>
+				<button-add rect="18"  bindtap="addClick" data-price="{{itemData.price}}"/>
+			</view>
+		</view>
+	</view>
+</view>

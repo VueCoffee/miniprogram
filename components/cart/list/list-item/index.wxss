@@ -1,0 +1,63 @@
+/* components/cart/list/list-item/index.wxss */
+.list-item {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.list-item-check {
+  width: 20px;
+  height: 20px;  
+}
+
+.list-item-image {
+  width: 80px;
+  height: 80px;
+}
+.list-item-content {
+  flex: 1;
+  margin-left: 10px;
+}
+.list-item-title {
+  font-size: var(--zh-sixteen-size);
+  color: var(--text-color);
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.list-item-title-en {
+  font-size: var(--zh-ten-size);
+  color: var(--gary-color);
+}
+.list-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+}
+.list-item-prices {
+  display: flex;
+  align-items: baseline;
+}
+
+.list-item-prices text:nth-of-type(1) {
+  font-size: var(--zh-ten-size);
+  color: var(--text-gary-color);
+}
+.list-item-prices text:nth-of-type(2) {
+  font-size: var(--zh-fourteen-size);
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.list-item-num-view {
+  display: flex;
+  align-items: center;
+}
+.list-item-num-view text {
+  margin-bottom: 3px;
+  text-align: center;
+  width: 40px;
+  font-size: var(--zh-fourteen-size);
+  color: var(--text-color);
+}
