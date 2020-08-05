@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "button-add": "/components/button/button-add/index"
+    "button-add": "/components/button/button-add/index",
+    "button-reduce": "/components/button/button-reduce/index"
   }
 }

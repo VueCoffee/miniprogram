@@ -8,15 +8,15 @@
 			<block wx:if="{{itemData.hot}}">
 				<tag-hot />
 			</block>
-			<text class="history-item-title">{{itemData.name}}</text>
+			<text class="vcontent-item-title">{{itemData.name}}</text>
 		</view>
-		<text class="history-item-title-en">Brown Sugar Latte</text>
-		<view class="history-item-bottom">
-			<view class="history-item-prices">
+		<text class="vcontent-item-title-en">Brown Sugar Latte</text>
+		<view class="vcontent-item-bottom">
+			<view class="vcontent-item-prices">
 				<text>¥</text>
 				<text>{{itemData.price}}</text>
 			</view>
-			<view class="history-item-num-view">
+			<view class="vcontent-item-num-view">
 				<block wx:if="{{num > 0}}">
 					<button-reduce rect="18"  bindtap="reduceClick" data-price="{{itemData.price}}"/>
 					<text>{{num}}</text>

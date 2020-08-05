@@ -5,7 +5,9 @@
 		<banner ishome="{{ishome}}" dot-bottom="10" banner-height="120" />
 	</view>
 	<view class="product-list-view" style="height: calc(100vh - {{navigationBarHeight + 130}}px); top: {{navigationBarHeight + 130}}px">
-		<v-tab bind:shopnum="handleShopNum"/>
+		<v-tab bind:shopnum="handleShopNum" />
 	</view>
-	<shopcart shopnum="{{shopnum}}" class="component-shopcart-view"/>
+	<block wx:if="{{shopnum.num > 0}}">
+		<shopcart shopnum="{{shopnum}}" class="component-shopcart-view" />
+	</block>
 </view>

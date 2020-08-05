@@ -25,8 +25,6 @@ Component({
    */
   methods: {
     handleShopNum: function(event) {
-      console.log(event)
-      console.log(2)
     }
   }
 })

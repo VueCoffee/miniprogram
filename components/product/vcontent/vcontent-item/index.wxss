@@ -12,43 +12,43 @@
   flex: 1;
   margin-left: 10px;
 }
-.history-item-title {
+.vcontent-item-title {
   font-size: var(--zh-sixteen-size);
   color: var(--text-color);
   font-weight: bold;
   margin-left: 5px;
 }
 
-.history-item-title-en {
+.vcontent-item-title-en {
   font-size: var(--zh-ten-size);
   color: var(--gary-color);
 }
-.history-item-bottom {
+.vcontent-item-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 3px;
 }
-.history-item-prices {
+.vcontent-item-prices {
   display: flex;
   align-items: baseline;
 }
 
-.history-item-prices text:nth-of-type(1) {
+.vcontent-item-prices text:nth-of-type(1) {
   font-size: var(--zh-ten-size);
   color: var(--text-gary-color);
 }
-.history-item-prices text:nth-of-type(2) {
+.vcontent-item-prices text:nth-of-type(2) {
   font-size: var(--zh-fourteen-size);
   color: var(--text-color);
   font-weight: bold;
 }
 
-.history-item-num-view {
+.vcontent-item-num-view {
   display: flex;
   align-items: center;
 }
-.history-item-num-view text {
+.vcontent-item-num-view text {
   margin-bottom: 3px;
   text-align: center;
   width: 40px;

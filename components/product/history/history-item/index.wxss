@@ -31,4 +31,18 @@
 .history-item-prices text:nth-of-type(2) {
   font-size: var(--twelve-size);
   color: var(--text-color);
+  font-weight: bold;
+}
+
+.history-item-num-view {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.history-item-num-view text {
+  margin-bottom: 3px;
+  text-align: center;
+  width: 40px;
+  font-size: var(--zh-fourteen-size);
+  color: var(--text-color);
 }
