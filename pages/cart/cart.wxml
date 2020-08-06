@@ -1,10 +1,12 @@
 <!--pages/cart/cart.wxml-->
 <view class="cart-view">
 	<cart-head class="cart-head" />
-	<cart-list />
-	<home-recommend />
-	<home-combination />
-	<block wx:if="{{shopnum.num > 0}}">
-		<shopcart shopnum="{{shopnum}}" class="component-shopcart-view" />
-	</block>
+	<view style="margin-top: {{navigationBarHeight}}px">
+		<cart-list />
+		<home-recommend />
+		<home-combination />
+		<block wx:if="{{shopnum.num > 0}}">
+			<shopcart shopnum="{{shopnum}}" class="component-shopcart-view" />
+		</block>
+	</view>
 </view>

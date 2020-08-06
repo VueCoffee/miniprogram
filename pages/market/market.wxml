@@ -1,22 +1,26 @@
 <!--pages/market/market.wxml-->
 <view class="market-view">
 	<market-head />
-	<banner ishome="{{ishome}}" banner-height="150" />
-	<scroll-view class="market-scroll" scroll-x>
-		<view class="tabs-view">
-			<block wx:for="{{tabsData}}" wx:key="title">
-				<text class="tab-title {{current === index ? 'tab-active' : ''}}" bindtap="handleTabClick" data-index="{{index}}">{{item.title}}</text>
-				<block wx:if="{{item.new}}">
-					<tag-black name="NEW" background-color="var(--green-light-color)" />
+	<view style="margin-top: {{navigationBarHeight}}px">
+		<banner ishome="{{ishome}}" banner-height="150" />
+		<scroll-view class="market-scroll" scroll-x>
+			<view class="tabs-view">
+				<block wx:for="{{tabsData}}" wx:key="title">
+					<view class="tab-view">
+            <text class="tab-title {{current === index ? 'tab-active' : ''}}" bindtap="handleTabClick" data-index="{{index}}">{{item.title}}</text>
+					<block wx:if="{{item.new}}">
+						<tag-black class="component-tag-black" name="NEW" font-size="var(--zh-six-size)" background-color="var(--green-light-color)" />
+					</block>
+          </view>
 				</block>
+			</view>
+		</scroll-view>
+		<swiper class="market-swiper" current="{{current}}" bindchange="handleSwiperChange">
+			<block wx:for="{{tabsData}}" wx:key="title">
+				<swiper-item>
+					<home-trendy show-head="{{showHead}}" />
+				</swiper-item>
 			</block>
-		</view>
-	</scroll-view>
-	<swiper class="market-swiper" current="{{current}}" bindchange="handleSwiperChange">
-		<block wx:for="{{tabsData}}" wx:key="title">
-			<swiper-item>
-				<home-trendy show-head="{{showHead}}" />
-			</swiper-item>
-		</block>
-	</swiper>
+		</swiper>
+	</view>
 </view>

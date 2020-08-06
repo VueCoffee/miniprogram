@@ -11,12 +11,17 @@
 .tabs-view {
   display: flex;
   align-items: baseline;
-  color: var(--text-gary-color);
-  font-size: var(--zh-fourteen-size);
+}
+.tab-view {
+  display: flex;
+  align-items: baseline;
 }
 
 .tab-title {
-  margin-left: 10px;
+  margin-left: 15px;
+  color: var(--text-gary-color);
+  font-size: var(--zh-twelve-size);
+  font-weight: bold;
 }
 
 .tab-active {

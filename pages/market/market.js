@@ -1,10 +1,12 @@
 // pages/market/market.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    navigationBarHeight: app.globalData.navigationBarHeight,
     ishome: false,
     showHead: false,
     tabsData: [{

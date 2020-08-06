@@ -11,6 +11,10 @@ Component({
     backgroundColor: {
       type: String,
       value: "var(--text-color)"
+    },
+    fontSize: {
+      type: String,
+      value: "var(--zh-ten-size)"
     }
   },
 

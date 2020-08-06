@@ -44,6 +44,7 @@ page {
   --tab-color: #F3F7F7;
 
   /* 中文文字大小 */
+  --zh-six-size: 6px;
   --zh-ten-size: 10px;
   --zh-twelve-size: 12px;
   --zh-fourteen-size: 14px;

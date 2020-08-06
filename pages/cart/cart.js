@@ -1,10 +1,12 @@
 // pages/cart/cart.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    navigationBarHeight: app.globalData.navigationBarHeight,
     shopnum: {
       num: 3,
       price: 75
