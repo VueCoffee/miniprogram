@@ -5,7 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    ishome: false,
+    showHead: false,
+    tabsData: [{
+      title: "全部",
+      new: false
+    }, {
+      title: "咖啡系列",
+      new: false
+    }, {
+      title: "小鹿茶系列",
+      new: false
+    }, {
+      title: "瑞幸坚果",
+      new: true
+    }],
+    current: 0
+  },
+  handleTabClick: function(event) {
+    const index = e.currentTarget.dataset.index
+    this.setData({activeTab: index})
+  },
+  handleSwiperChange: function (event) {
+    const index = event.detail.current
+    this.setData({
+      current: index
+    })
   },
 
   /**

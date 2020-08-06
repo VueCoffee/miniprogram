@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tag-block": "/components/tag/tag_black/index"
+  }
+}

@@ -1,24 +1,18 @@
-// components/tag/tag_black/index.js
+// components/market/head/index.js
+const app = getApp()
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    name: {
-      type: String,
-      value: "免配送费"
-    },
-    backgroundColor: {
-      type: String,
-      value: "var(--text-color)"
-    }
+
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-
+    navigationBarHeight: app.globalData.navigationBarHeight
   },
 
   /**

@@ -1,0 +1,22 @@
+/* components/market/head/index.wxss */
+.market-head {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: var(--background-white-color);
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  z-index: 999;
+}
+.market-head-title {
+  font-size: var(--zh-eighteen-size);
+  color: var(--text-color);
+  font-weight: bold;
+  margin-right: 5px;
+}
+.market-head-tag  {
+  margin-bottom: 2px;
+}

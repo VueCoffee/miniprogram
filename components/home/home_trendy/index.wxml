@@ -1,10 +1,12 @@
 <!--components/home/home_trendy/index.wxml-->
 <view class="home-trendy">
-	<view class="home-trendy-head">
-		<text class="home-trendy-head-title">Coffee潮品</text>
-		<tag_black name="直邮到家" />
-		<text class="home-trendy-head-more">more</text>
-	</view>
+	<block wx:if="{{showHead}}">
+		<view class="home-trendy-head">
+			<text class="home-trendy-head-title">Coffee潮品</text>
+			<tag_black name="直邮到家" />
+			<text class="home-trendy-head-more">more</text>
+		</view>
+	</block>
 	<view class="home-trendy-content">
 		<block wx:for="{{trendyData}}" wx:key="unique">
 			<home_trendy_item item-data="{{item}}" />

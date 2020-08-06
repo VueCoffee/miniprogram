@@ -1,0 +1,5 @@
+<!--components/market/head/index.wxml-->
+<view class="market-head" style="height: {{navigationBarHeight}}px;">
+	<text class="market-head-title">luckin潮品</text>
+  <tag-block class="market-head-tag" name="直邮到家"/>
+</view>

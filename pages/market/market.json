@@ -1,5 +1,9 @@
 {
   "usingComponents": {
-    "button_shop_cart": "/components/button/button_shop_cart/index"
+    "button_shop_cart": "/components/button/button_shop_cart/index",
+    "market-head":"/components/market/head/index",
+    "banner": "/components/banner/index",
+    "home-trendy": "/components/home/home_trendy/index",
+    "tag-black": "/components/tag/tag_black/index"
   }
 }
